@@ -24,9 +24,34 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 2vw;
-    border: 9px double #afacfa;
-    border-radius: 80%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 10%;
+    border-radius: 20%;
+    transition: 0.7s;
+}
+
+.headerimage:hover{
+    transform: scale(1.05);
+}
+
+.skypic{
+    border-radius: 20%;
+    transition: 0.7s;
+    border: 9px double #7265ff;
+    background-color: #3a27c9;
+    filter: opacity(70%);
+}
+
+.skypic:hover{
+    border: 9px double #fff3e0;
+    background-color: #e8ba82;
+    transform: scale(1.05);
+    filter: opacity(100%);
+}
+
+img{
+    border-radius: 20%;
 }
 
 .flex-intro {
@@ -37,8 +62,11 @@ body {
     flex-wrap: wrap;
     text-align: center;
     margin: 3vw;
-    padding: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 3%;
     background-color: rgb(174, 174, 174);
+    font-size: 120%;
 }
 
 

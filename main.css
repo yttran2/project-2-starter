@@ -52,7 +52,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 3vw;
+    margin: 2vw;
 }
 
 .body2{
@@ -66,3 +66,56 @@ body {
     margin-right: 48%;
     padding: 2%;
 }
+
+/* Below is the next section which will give a brief overview of my personal Sky journey, will be elaborated on in the gallery */
+
+.overview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.border1{
+    display: flex;
+    justify-content: space-around;
+    animation: glow 5s infinite;
+}
+
+
+.brief{
+    margin: 2vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    background-color: rgb(159, 191, 202);
+    background-blend-mode: soft-light;
+    border: 9px double rgb(222, 240, 252);
+    border-radius: 30%;
+    font-size: 140%;
+    font-family: Simply Rounded;
+    color: rgb(62, 86, 106);
+}
+
+
+@keyframes glow{
+    0%{
+        -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
+        -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+        box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    }
+
+    50%{
+        -webkit-box-shadow:0px 0px 29px 14px rgba(255,255,255,0.8);
+        -moz-box-shadow: 0px 0px 29px 14px rgba(255,255,255,0.8);
+        box-shadow: 0px 0px 29px 14px rgba(255,255,255,0.8);
+    }
+    100%{
+        -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
+        -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+        box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    }
+}
+
+

@@ -1,22 +1,40 @@
 /* STYLE FOR YOU MAIN.HTML */
 @font-face {
+    font-family: Simply Rounded;
+    src: url("fonts/Simply Rounded.ttf");
+}
+
+@font-face {
     font-family: Nunito;
     src: url("fonts/Nunito-Regular.ttf");
 }
 
 body {
     margin: 0;
-    background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
+    background-image: url(images/cloudbgmain.webp);
+    background-position: 50%;
     font-family: Nunito;
 }
 
 .introduction{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
     margin: 2vw;
-    padding: 2%;
-    background-color: rgb(174, 174, 174);
-    font-size: 120%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    background-color: rgb(159, 191, 202);
+    background-blend-mode: soft-light;
+    border: 9px double rgb(222, 240, 252);
+    border-radius: 30%;
+    font-size: 140%;
+    font-family: Simply Rounded;
+    background-image: url(images/borderdeco.PNG);
+    background-position: 5%;
+    color: rgb(62, 86, 106);
 }
 
 .body1 {

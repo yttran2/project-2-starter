@@ -14,6 +14,9 @@ body {
     margin: 0;
     background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
     font-family: Simply Rounded;
+    background-image: url(images/isle_thatskygame.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .headerimage{
@@ -22,6 +25,8 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 2vw;
+    border: 9px double #afacfa;
+    border-radius: 80%;
 }
 
 .flex-intro {
@@ -60,9 +65,9 @@ body {
 }
 
 button{
-    background-color: #87e0fd;
-    border: 8px double #33b4ff;
-    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(251, 224, 250) 0%, rgb(177, 175, 245) 100%);
+    border: 8px double #6f6fd3;
+    color: rgb(91, 116, 227);
     border-radius: 40%;
     font-family: Simply Rounded;
     font-size: 170%;
@@ -72,9 +77,9 @@ button{
 }
 
 button:hover{
-    background-color: #49a4ff;
-    color: rgb(187, 223, 255);
-    border: 10px double #ffffff;
+    background: linear-gradient(180deg, rgb(254, 225, 229) 0%, rgb(245, 203, 175) 100%);
+    color: rgb(255, 249, 226);
+    border: 10px double #f7edb5;
     transform: scale(1.05);
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
 }

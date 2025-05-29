@@ -11,6 +11,14 @@ body {
     font-family: Simply Rounded;
 }
 
+.headerimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vw;
+}
+
 .flex-intro {
     display: flex;
     flex-direction: row;
@@ -18,7 +26,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    margin: 5vw;
+    margin: 3vw;
     padding: 2%;
     background-color: rgb(174, 174, 174);
 }
@@ -41,17 +49,28 @@ body {
 .textbox{
     background-color: rgb(160, 160, 160);
     margin: 3%;
-    padding: 2vh;
-    font-size: 110%;
+    padding: 2%;
+    font-size: 130%;
 }
 
 button{
-    background-color: #100351;
-    border: 10px groove #130e7e;
-    color: white;
-    border-radius: 20%;
+    background-color: #87e0fd;
+    border: 8px double #33b4ff;
+    color: rgb(255, 255, 255);
+    border-radius: 40%;
     font-family: Simply Rounded;
-    font-size: 150%;
+    font-size: 170%;
+    padding: 5%;
+    margin: 3%;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #49a4ff;
+    color: rgb(187, 223, 255);
+    border: 10px double #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
 }
 
 .buttons{

@@ -4,6 +4,11 @@
     src: url("fonts/Simply Rounded.ttf");
 }
 
+@font-face {
+    font-family: Nunito;
+    src: url("fonts/Nunito-Regular.ttf");
+}
+
 
 body {
     margin: 0;
@@ -38,6 +43,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     justify-content: space-around;
+    font-family: Nunito;
 }
 
 .portrait{

@@ -1,1 +1,50 @@
 /* STYLE FOR YOU MAIN.HTML */
+@font-face {
+    font-family: Nunito;
+    src: url("fonts/Nunito-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
+    font-family: Nunito;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+    padding: 2%;
+    background-color: rgb(174, 174, 174);
+    font-size: 120%;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3vw;
+    padding: 2%;
+    background-color: rgb(174, 174, 174);
+}
+
+.txtandimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3vw;
+}
+
+.body2{
+    background-color: rgb(174, 174, 174);
+    margin: 1vw;
+    padding: 2%;
+    font-size: 140%;
+}
+
+.intropic{
+    margin-right: 48%;
+    padding: 2%;
+}

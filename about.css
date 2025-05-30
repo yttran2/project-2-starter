@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Simply Rounded;
+    src: url("fonts/Simply Rounded.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("fonts/Nunito-Regular.ttf");
+}
+
+
+/* Navigation bar which is sticky so you can navigate anytime anywhere */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
+    transition: 0.3s;
+    opacity: 50%;
+}
+
+.navbar:hover {
+  background-color: #ddd;
+  color: black;
+  opacity: 100%;
+}
+
+.navbar a:hover {
+  background-color: #fff9dc;
+  color: black;
+  font-size: 120%;
+}
+
+.navitem{
+    margin: 1%;
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 130%;
+    color: white;
+}
+
+a.here .tooltiptext{
+    position: absolute;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    transition: 0.5s;
+    top: 110%;
+    left: 20%;
+    margin-left: 7%;
+    transition: 0.3s;
+}
+
+a.here:hover .tooltiptext{
+    visibility: visible;
+}
+
+/* Light's character bio and portrait go under here */
+
+body {
+    margin: 0;
+    font-family: Nunito;
+}

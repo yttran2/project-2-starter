@@ -9,6 +9,66 @@
     src: url("fonts/Nunito-Regular.ttf");
 }
 
+
+/* Navigation bar which is sticky so you can navigate anytime anywhere */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
+    transition: 0.3s;
+    opacity: 50%;
+}
+
+.navbar:hover {
+  background-color: #ddd;
+  color: black;
+  opacity: 100%;
+}
+
+.navbar a:hover {
+  background-color: #fff9dc;
+  color: black;
+  font-size: 120%;
+}
+
+.navitem{
+    margin: 1%;
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 130%;
+    color: white;
+}
+
+a.here .tooltiptext{
+    position: absolute;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    transition: 0.5s;
+    top: 110%;
+    left: 20%;
+    margin-left: 30%;
+    font-size: 100%;
+    transition: 0.3s;
+}
+
+a.here:hover .tooltiptext{
+    visibility: visible;
+}
+
+/* Introduction to the site below */
+
 body {
     margin: 0;
     background-image: url(images/cloudbgmain.webp);
@@ -35,6 +95,16 @@ body {
     background-image: url(images/borderdeco.PNG);
     background-position: 5%;
     color: rgb(62, 86, 106);
+    opacity: 80%;
+    transition: 0.5s;
+}
+
+.introduction:hover{
+    opacity: 100%;
+    -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
+    -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    transform: scale(1.05);
 }
 
 .body1 {
@@ -83,19 +153,25 @@ body {
     animation: glow 5s infinite;
 }
 
-
 .brief{
     margin: 2vw;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 1%;
     background-color: rgb(159, 191, 202);
     background-blend-mode: soft-light;
+    background-image: url(images/borderdeco.PNG);
+    background-position: 5%;
     border: 9px double rgb(222, 240, 252);
     border-radius: 30%;
-    font-size: 140%;
+    font-size: 120%;
     font-family: Simply Rounded;
     color: rgb(62, 86, 106);
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+.brief:hover{
+    opacity: 100%;
+    transform: scale(1.05);
 }
 
 
@@ -118,4 +194,78 @@ body {
     }
 }
 
+.body3{
+    background-color: rgb(174, 174, 174);
+    margin: 1vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    font-size: 140%;
+}
+
+span{
+    font-size: 150%;
+}
+
+.isleofdawn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vw;
+}
+
+.iodpic{
+    margin: 2vw;
+    margin-left: 10%;
+}
+
+.captioniod{
+    background-color: rgb(174, 174, 174);
+    margin: 1vw;
+    margin-right: 10%;
+    padding: 2%;
+    font-size: 110%;
+}
+
+/* Next section: continue talking about solo journey and your favorite realm */
+
+.vaultofknowledge{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.vokheader{
+    margin: 2vw;
+    padding: 1%;
+    background-color: rgb(159, 191, 202);
+    background-blend-mode: soft-light;
+    background-image: url(images/borderdeco.PNG);
+    background-position: 5%;
+    border: 9px double rgb(222, 240, 252);
+    border-radius: 30%;
+    font-size: 120%;
+    font-family: Simply Rounded;
+    color: rgb(62, 86, 106);
+    opacity: 70%;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.vokheader:hover{
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+.body4{
+    background-color: rgb(174, 174, 174);
+    margin: 1vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    font-size: 140%;
+}
 

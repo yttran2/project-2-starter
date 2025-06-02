@@ -269,3 +269,16 @@ span{
     font-size: 140%;
 }
 
+.vaultimg{
+    margin: 2vh;
+}
+
+.captionvok{
+    background-color: rgb(174, 174, 174);
+    margin: 1vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+    font-size: 110%;
+}
+

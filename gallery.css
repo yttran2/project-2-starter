@@ -71,4 +71,132 @@ a.here:hover .tooltiptext{
 body {
     margin: 0;
     font-family: Nunito;
+    background-image: url(images/hfbackground.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.soloheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 2vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    background-color: rgb(159, 191, 202);
+    background-blend-mode: soft-light;
+    border: 9px double rgb(222, 240, 252);
+    border-radius: 30%;
+    font-size: 140%;
+    font-family: Simply Rounded;
+    background-image: url(images/borderdeco.PNG);
+    background-position: 5%;
+    color: rgb(62, 86, 106);
+    opacity: 80%;
+    transition: 0.5s;
+}
+
+.soloheader:hover{
+    opacity: 100%;
+    -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
+    -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    transform: scale(1.05);
+}
+
+.starlight{
+    margin: 3vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(159, 191, 202);
+    background-blend-mode: lighten;
+    background-image: url(images/borderdeco.PNG);
+    background-position: 5%;
+    border: 9px double rgb(222, 240, 252);
+    border-radius: 30%;
+    font-size: 120%;
+    font-family: Simply Rounded;
+    color: rgb(62, 86, 106);
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+.starlight:hover{
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+.gallerysolo {
+    margin: 2%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
+    float: left;
+    transition: 0.3s;
+    opacity: 60%;
+}
+
+.gallerysolo:hover {
+    border: 3px solid #ffffff;
+    -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
+    -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    filter: drop-shadow(3px 10px rgb(222, 224, 245));
+    opacity: 100%;
+}
+
+.gallerysolo img {
+  width: 100%;
+  height: 200px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.border{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 22%;
+    margin-right: 10%;
+    float: left;
+    transition: 0.3s;
+}
+
+.border:hover{
+    filter: contrast(150%) drop-shadow(3px 10px rgb(222, 224, 245));
+}
+
+.solocont{
+    margin: 2%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
+    transition: 0.3s;
+    opacity: 60%;
+}
+
+.solocont img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.solocont:hover {
+    border: 3px solid #ffffff;
+    -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
+    -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    filter: drop-shadow(3px 10px rgb(222, 224, 245));
+    opacity: 100%;
+}
+

@@ -73,23 +73,41 @@ img{
 .light{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     margin-left: 10%;
     margin-right: 10%;
-    justify-content: space-around;
     font-family: Nunito;
+    align-items: center;
 }
 
 .portrait{
-    background-color: gray;
-    text-align: center;
-    padding: 5%;
+    background-color: aliceblue;
+    transition: 0.5s;
+    -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
+    -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+    box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
+}
+
+.portrait:hover{
+    transform: rotate(-7deg) scale(1.05);
+    -webkit-box-shadow:0px 0px 29px 14px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 29px 14px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 29px 14px rgba(255,255,255,0.8);
+}
+
+.portrait:active{
+    transform: rotate(-12deg) scale(0.9);
+    filter: contrast(150%);
 }
 
 .textbox{
     background-color: rgb(160, 160, 160);
-    margin: 3%;
-    padding: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
     font-size: 130%;
+    padding: 2%;
 }
 
 button{
@@ -110,12 +128,18 @@ button:hover{
     border: 10px double #f7edb5;
     transform: scale(1.05);
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.8);
+    opacity: 50%;
 }
 
 .buttons{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 3vw;
 }
@@ -124,4 +148,5 @@ button:hover{
     margin-left: 5%;
     margin-right: 5%;
 }
+
 

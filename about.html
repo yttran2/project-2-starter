@@ -67,6 +67,67 @@
     </div>
 
 
+    <div class="resources">
+
+        <div class="body">
+            <p>Here's some alternative ways to make Sky friends! I've also added some other relevant websites if you'd like to check those out.
+            </p>
+        </div>
+
+        <div class="links">
+            
+            <div class="linkitem">
+                <a href="https://discord.com/invite/thatskygame" target="_blank">Join the Sky discord</a>
+            </div>
+
+            <div class="linkitem">
+                <a href="https://www.reddit.com/r/SkyChildrenOfLight/" target="_blank">Check out the Sky Reddit</a>
+            </div>
+
+            <div class="linkitem">
+                <button id="myBtn">Send me a friend request on Discord :]</button>
+            </div>
+
+            <div class="linkitem">
+                <a href="https://skykidheight.com" target="_blank">Sky height chart for funsies</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+        <p>Oops, an exception occurred... maybe try again later :[</p>
+
+    </div>
+
+    <script>
+        var modal = document.getElementById("myModal");
+
+        var btn = document.getElementById("myBtn");
+
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        }
+    </script>
     
 </body>
 </html>

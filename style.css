@@ -54,6 +54,7 @@ img{
     border-radius: 20%;
 }
 
+
 .flex-intro {
     display: flex;
     flex-direction: row;
@@ -65,7 +66,8 @@ img{
     margin-left: 8%;
     margin-right: 8%;
     padding: 3%;
-    background-color: rgb(174, 174, 174);
+    background: linear-gradient(180deg, #201d21 0%, #333034 100%);
+    color: antiquewhite;
     font-size: 120%;
 }
 
@@ -102,7 +104,8 @@ img{
 }
 
 .textbox{
-    background-color: rgb(160, 160, 160);
+    background: linear-gradient(180deg, #201d21 0%, #333034 100%);
+    color: antiquewhite;
     margin-top: 5%;
     margin-left: 5%;
     margin-bottom: 5%;

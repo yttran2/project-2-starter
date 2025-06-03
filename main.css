@@ -116,7 +116,17 @@ body {
     flex-wrap: wrap;
     margin: 3vw;
     padding: 2%;
-    background-color: rgb(174, 174, 174);
+    background: linear-gradient(180deg, #a0aac6 0%, #8cc0fc 100%);
+    color: antiquewhite;
+    transition: 0.5s all;
+    opacity: 50%;
+}
+
+.body1:hover{
+    background: linear-gradient(180deg, #a0aac6 0%, #8cc0fc 100%);
+    color: rgb(77, 71, 92);
+    transform: scale(1.05);
+    opacity: 100%;
 }
 
 .txtandimg{
@@ -127,10 +137,20 @@ body {
 }
 
 .body2{
-    background-color: rgb(174, 174, 174);
+    background: linear-gradient(180deg, #a0aac6 0%, #8cc0fc 100%);
+    color: antiquewhite;
     margin: 1vw;
     padding: 2%;
     font-size: 140%;
+    transition: 0.5s all;
+    opacity: 50%;
+}
+
+.body2:hover{
+    background: linear-gradient(180deg, #a0aac6 0%, #8cc0fc 100%);
+    color: rgb(77, 71, 92);
+    transform: scale(1.05);
+    opacity: 100%;
 }
 
 .intropic{
@@ -196,12 +216,22 @@ body {
 }
 
 .body3{
-    background-color: rgb(174, 174, 174);
+    background: linear-gradient(180deg, #a0aac6 0%, #8cc0fc 100%);
+    color: antiquewhite;
     margin: 1vw;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2%;
     font-size: 140%;
+    transition: 0.5s all;
+    opacity: 50%;
+}
+
+.body3:hover{
+    background: linear-gradient(180deg, #a0aac6 0%, #8cc0fc 100%);
+    color: rgb(77, 71, 92);
+    transform: scale(1.05);
+    opacity: 100%;
 }
 
 span{
@@ -222,21 +252,31 @@ span{
 }
 
 .captioniod{
-    background-color: rgb(174, 174, 174);
+    background: linear-gradient(180deg, #a0aac6 0%, #8cc0fc 100%);
+    color: antiquewhite;
     margin: 1vw;
     margin-right: 10%;
     padding: 2%;
     font-size: 110%;
+    transition: 0.5s;
+}
+
+.captioniod:hover{
+    transform: scale(1.05);
 }
 
 /* Next section: continue talking about solo journey and your favorite realm */
 
 .vaultofknowledge{
+    padding: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    background-image: url(images/vault-of-knowledge-sky-thatgamecompany-pinup-magazine-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .vokheader{
@@ -262,12 +302,20 @@ span{
 }
 
 .body4{
-    background-color: rgb(174, 174, 174);
+    background: linear-gradient(180deg, #201d21 0%, #333034 100%);
+    color: antiquewhite;
     margin: 1vw;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2%;
     font-size: 140%;
+    transition: 0.5s all;
+    opacity: 50%;
+}
+
+.body4:hover{
+    transform: scale(1.05);
+    opacity: 100%;
 }
 
 .vaultimg{
@@ -275,11 +323,50 @@ span{
 }
 
 .captionvok{
-    background-color: rgb(174, 174, 174);
+    background: linear-gradient(180deg, #201d21 0%, #333034 100%);
+    color: antiquewhite;
     margin: 1vw;
     margin-left: 30%;
     margin-right: 30%;
     padding: 2%;
     font-size: 110%;
+    transition: 0.5s;
 }
 
+.captionvok:hover{
+    transform: scale(1.05);
+}
+
+img{
+    transition: 0.5s;
+    animation: glow 5s infinite;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+/* Rebirth and identity */
+
+.flex-eden{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(images/eyeofeden.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.light{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+iframe{
+    margin: 2%;
+}

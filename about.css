@@ -122,7 +122,7 @@ body {
 }
 
 .bio{
-    margin: 5%;
+    margin: 2%;
     background: linear-gradient(180deg, #a0aac6 0%, #8cc0fc 100%);
     color: antiquewhite;
     padding: 2%;
@@ -140,11 +140,13 @@ body {
     margin: 1vw;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
     padding: 2%;
     font-size: 140%;
     transition: 0.5s all;
     border-radius: 10%;
     text-align: center;
+    border: 8px double rgb(219, 187, 165);
 }
 
 .body:hover{

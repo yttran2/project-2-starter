@@ -19,6 +19,7 @@
     background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
     transition: 0.3s;
     opacity: 50%;
+    z-index: 1100;
 }
 
 .navbar:hover {

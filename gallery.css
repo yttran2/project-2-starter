@@ -17,8 +17,9 @@
     position: sticky;
     top: 0px;
     background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
-    transition: 0.3s;
-    opacity: 50%;
+    transition: 0.5s;
+    opacity: 0%;
+    z-index: 1100;
 }
 
 .navbar:hover {
@@ -76,7 +77,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.soloheader{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -99,12 +100,24 @@ body {
     transition: 0.5s;
 }
 
-.soloheader:hover{
+.header:hover{
     opacity: 100%;
     -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
     -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
     box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
     transform: scale(1.05);
+}
+
+.body1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2%;
+    background: linear-gradient(180deg, #201d21 0%, #333034 100%);
+    color: antiquewhite;
 }
 
 .starlight{
@@ -113,17 +126,28 @@ body {
     margin-right: 30%;
     padding: 1%;
     text-align: center;
-    background-color: rgb(159, 191, 202);
-    background-blend-mode: lighten;
+    background-color: rgb(24, 21, 65);
+    background-blend-mode: color-burn;
     background-image: url(images/borderdeco.PNG);
     background-position: 5%;
-    border: 9px double rgb(222, 240, 252);
+    border: 9px double rgb(50, 30, 135);
     border-radius: 30%;
     font-size: 120%;
     font-family: Simply Rounded;
-    color: rgb(62, 86, 106);
+    color: antiquewhite;
     opacity: 70%;
     transition: 0.5s;
+}
+
+.stars{
+    position: absolute;
+    top: -100px;
+    left: -150px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
 }
 
 .starlight:hover{
@@ -131,19 +155,35 @@ body {
     transform: scale(1.05);
 }
 
-.gallerysolo {
+.starlight:hover .stars{
+    opacity: 100%;
+    left: -250px;
+}
+
+.half1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(images/gallery/starlightbg.webp);
+    border-radius: 5%;
     margin: 2%;
-    border: 1px solid #ccc;
+}
+
+.gallerysolo {
+    margin: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: 3px solid #ccc;
     float: left;
     width: 300px;
     background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
     float: left;
     transition: 0.3s;
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .gallerysolo:hover {
-    border: 3px solid #ffffff;
     -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
     -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
     box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
@@ -152,8 +192,8 @@ body {
 }
 
 .gallerysolo img {
-  width: 100%;
-  height: 200px;
+    width: 100%;
+    height: 200px;
 }
 
 .desc {
@@ -163,10 +203,9 @@ body {
 
 .border{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    margin-left: 22%;
-    margin-right: 10%;
-    float: left;
     transition: 0.3s;
 }
 
@@ -174,25 +213,33 @@ body {
     filter: contrast(150%) drop-shadow(3px 10px rgb(222, 224, 245));
 }
 
-.solocont{
+.half2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/hfbackground.avif);
     margin: 2%;
-    border: 1px solid #ccc;
-    float: left;
+    border-radius: 5%;
+}
+
+.solocont{
+    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border: 3px solid #ccc;
     width: 300px;
     background: linear-gradient(135deg, #6ca9ff 0%, #a0e2ff 100%);
     transition: 0.3s;
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .solocont img {
-    display: flex;
-    align-items: center;
     width: 100%;
     height: 200px;
 }
 
 .solocont:hover {
-    border: 3px solid #ffffff;
     -webkit-box-shadow:0px 0px 48px 4px rgba(255,255,255,0.45);
     -moz-box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
     box-shadow: 0px 0px 48px 4px rgba(255,255,255,0.45);
@@ -200,3 +247,37 @@ body {
     opacity: 100%;
 }
 
+.body2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2%;
+    background: linear-gradient(180deg, #201d21 0%, #333034 100%);
+    color: antiquewhite;
+}
+
+.coop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(images/gallery/daylightprairiebg.avif);
+    border-radius: 5%;
+    margin: 2%;
+}
+
+.body3{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2%;
+    background: linear-gradient(180deg, #201d21 0%, #333034 100%);
+    color: antiquewhite;
+}
